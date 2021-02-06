@@ -1,0 +1,458 @@
+﻿
+
+/*----- كود الدخول الطائر الحر -----*/
+
+#login-a7la7ekaya {
+    display: none;
+    z-index: 999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}  
+
+#register-a7la7ekaya {
+    display: none;
+    z-index: 999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}  
+#loginbox {
+    width: 100%;
+    position: fixed;
+    top: 10%;
+}
+  
+  #logincontent {
+    font-family: "Droid Arabic Kufi";
+    color: #666;
+
+}
+#logincontent {
+    position: relative;
+    background-color: #FFF;
+    width: 520px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+    font-family: "Droid Arabic Kufi";
+    color: #666;
+    border-radius: 10px;
+}
+  
+.closelogin {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: #FFF;
+    cursor: pointer;
+    font-family: tahoma;
+    font-size: 15px;
+}
+
+#loginhead {
+    background-color: #0c2c42;
+    border-radius: 5px;
+    height: 80px;
+    margin-bottom: 15px;
+
+  
+}
+
+.logininp {
+    font-family: "Droid Arabic Kufi";
+    cursor: pointer;
+    border: 1px solid #DEDEDE;
+    margin-bottom: 10px;
+    padding: 7px;
+    width: 80%;
+    margin-top: 8px;
+}
+.LoginButton [type="submit"] {
+    position: relative;
+    overflow: visible;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid #D4D4D4;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px #fff;
+    color: #333;
+    white-space: nowrap;
+    cursor: pointer;
+    outline: medium none;
+    background-color: #ECECEC;
+    background-image: linear-gradient(#F4F4F4, #ECECEC);
+    background-clip: padding-box;
+    border-radius: 0.2em;
+    width: 360px;
+    font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+input[type="submit"], input[type="reset"], input[type="button"] {
+    background: #FEFEFE;
+    color: #7C7C7C;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px #ccc;
+    margin: 2px;
+    text-decoration: none;
+    #text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+input[type="submit"], input[type="reset"], input[type="button"] {
+    background: #FEFEFE;
+    font-family: 'Droid Arabic Kufi';
+    font-size: 12px;
+    color: #7C7C7C;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px #ccc;
+    margin: 2px;
+    text-decoration: none;
+    #text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 3px;
+}
+input[type="checkbox"] {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+#createaccountlogin {
+    border: 1px solid transparent;
+    font-size: 12px;
+    padding: 3px;
+    border-radius: 3px;
+}  
+div#loginhead h1, div#loginhead h2 {
+    color: white;
+    font-weight: 900;
+    line-height: 3;
+  
+}
+div#loginhead h1 a, div#loginhead h2 a, #register-a7la7ekaya a, #login-a7la7ekaya a {
+    text-decoration: none;
+}
+html#min-width a {
+    text-decoration: none;
+}
+/*----- كود الدخول الطائر الحر -----*/
+
+/*----- كود البيانات الشخصيه الطائر الحر -----*/
+
+
+.settingsmenu {
+	font-family: 'Droid Arabic Kufi', serif !important;
+	font-weight: normal !important;
+	display: block;
+	padding: 0px 0px;
+	width: 350px;
+        max-width: calc(100% - 10px);
+	border-radius: 0px;
+	position: absolute;
+	top: 112px;
+	z-index: 104;
+	font-size: 12px;
+	border-radius: 0px 0px 10px 0px;
+        left: 99.7969px;
+  
+    -webkit-transition: all .25s ease, -xf-opacity .25s ease;
+    transition: all .25s ease, -xf-opacity .25s ease;
+    z-index: 200;
+    margin: 8px 0 0;
+    min-width: 240px;
+    max-width: 320px;
+    border-radius: 3px;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 35%);
+}
+.mun {
+	float: left;
+	margin-top: 10px;
+	font-size: 25px;
+}
+.mun .badgeicons {
+	font-size: 25px;
+	margin-right: 15px;
+	position: relative;
+	top: -5px;
+}
+.mun .badgelistalt {
+	font-size: 25px;
+	margin-right: 15px;
+	position: relative;
+	top: 4px;
+}
+.simptip-position-right:before, .simptip-position-left:before, .simptip-position-right:after, .simptip-position-left:after {
+	bottom: 50%;
+}
+.simptip-position-right:before, .simptip-position-left:before {
+	margin-bottom: -5px;
+}
+.simptip-position-right:after, .simptip-position-left:after {
+	margin-bottom: -14.66667px;
+}
+.half-arrow.simptip-position-right:before, .half-arrow.simptip-position-left:before {
+	bottom: 16px;
+	border-style: none;
+	border-top: 7px solid transparent;
+}
+.simptip-multiline.simptip-position-right:before, .simptip-multiline.simptip-position-left:before, .simptip-multiline.simptip-position-right:after, .simptip-multiline.simptip-position-left:after {
+	-webkit-transform: translateY(50%);
+	-moz-transform: translateY(50%);
+	-ms-transform: translateY(50%);
+	-o-transform: translateY(50%);
+	transform: translateY(50%);
+	-webkit-filter: blur(0px);
+	filter: blur(0px);
+	margin-bottom: 0;
+}
+.simptip-multiline.simptip-position-right:before, .simptip-multiline.simptip-position-left:before {
+	margin-bottom: 0;
+}
+.simptip-multiline.half-arrow.simptip-position-right:before, .simptip-multiline.half-arrow.simptip-position-left:before {
+	margin-bottom: -2px;
+}
+.simptip-position-right:before, .simptip-position-right:after {
+	left: 100%;
+}
+.simptip-position-right:before {
+	margin-left: -2px;
+}
+.simptip-position-right:after {
+	margin-left: 10px;
+}
+.simptip-position-right.simptip-movable:before {
+	margin-left: -10px;
+}
+.simptip-position-right.simptip-movable:after {
+	margin-left: 2px;
+}
+.simptip-position-right.simptip-movable:hover:before, .simptip-position-right.simptip-movable:hover:after {
+	-webkit-transform: translateX(10px);
+	-moz-transform: translateX(10px);
+	-ms-transform: translateX(10px);
+	-o-transform: translateX(10px);
+	transform: translateX(10px);
+}
+.simptip-position-right.simptip-movable.half-arrow:before {
+	margin-left: -5px;
+}
+.simptip-position-right.simptip-movable.simptip-multiline:hover:before, .simptip-position-right.simptip-movable.simptip-multiline:hover:after {
+	-webkit-transform: translate(10px, 50%);
+	-moz-transform: translate(10px, 50%);
+	-ms-transform: translate(10px, 50%);
+	-o-transform: translate(10px, 50%);
+	transform: translate(10px, 50%);
+}
+.simptip-position-right.half-arrow:before {
+	margin-left: 3px;
+	border-right: 7px solid #323232;
+}
+[data-tooltip].simptip-position-right:before {
+	border-right-color: #323232;
+}
+[data-tooltip].simptip-position-right:after {
+	background-color: #323232;
+	color: #ecf0f1;
+}
+.simptip-info.simptip-position-right:before {
+	border-right-color: #5bc0de;
+}
+.simptip-info.simptip-position-right:after {
+	background-color: #5bc0de;
+	color: #ecf0f1;
+}
+.simptip-success.simptip-position-right:before {
+	border-right-color: #62c462;
+}
+.simptip-success.simptip-position-right:after {
+	background-color: #62c462;
+	color: #ecf0f1;
+}
+.simptip-smooth:after {
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+.badge {
+	font-size: 28px;
+	padding: 5px;
+}
+.mun .badgeicons {
+	font-size: 25px;
+	margin-right: 15px;
+	position: relative;
+	top: -5px;
+}
+.mun .badgelistalt {
+	font-size: 25px;
+	margin-right: 15px;
+	position: relative;
+	top: 4px;
+}
+.btn-default .badge {
+	color: #058469;
+	background-color: #333;
+}
+.CpUser {
+	background: #185886 none repeat scroll 0% 0%;
+	border-color: #000 #444 #444 #000;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-style: solid;
+	border-width: 1px;
+	min-height: 10px;
+	overflow: hidden;
+	padding: 4px;
+	margin-bottom: 5px;
+}
+.CpUserName {
+	font-size: 13px;
+	font-weight: lighter;
+	color: #4795CF;
+	margin-top: 5px;
+}
+.CpUserName a:link {
+	color: #79D1D0;
+}
+.CpUserName a:visited {
+	color: #4795CF;
+}
+.CpUserName a:hover {
+	color: #79D1D0;
+}
+.CpUserIm img {
+	border: 3px solid #67CDF2;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 50px;
+	height: 50px;
+}
+.CpUserInfo {
+	float: right;
+	font-size: 10px;
+	margin-left: 8px;
+}
+.CpUserInfo a {
+	color: #f8c345;
+}
+.CpUserExit a:link {
+	color: #FF0000;
+	font-size: 13px;
+}
+.CpUserExit a:visited {
+	color: #FF0000;
+}
+.CpUserExit a:hover {
+	color: #fff;
+}
+.CpUserExit {
+	float: left;
+	font-size: 10px;
+	font-weight: lighter;
+}
+.VbmenuPopupHead {
+	color: #fff;
+	font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+	font-size: 12px;
+}
+.VbmenuPopupHead a:link {
+	color: #fff;
+	padding: 0 2px 0px 2px;
+}
+.VbmenuPopupHead a:hover {
+	background: #0080AE;
+	color : #fff;
+}
+.VbmenuPopupHead a:visited {
+	color: #fff;
+}
+.VbmenuOption {
+	background: none repeat scroll 0 0 #479f9e;
+	font-size: 0.8em;
+	font-weight: lighter;
+	padding: 5px;
+	min-height: 10px;
+	overflow: hidden;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	color: #fff;
+	font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+}
+.VbmenuOption a {
+	color: #fff;
+}
+.VbmenuOption a:hover {
+	color: #94dad9;
+}
+.VbmenuOptionH {
+	background: none repeat scroll 0 0 #185886;
+	border: 1px solid #4A5560;
+	font-size: 12px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	margin-left: 4px;
+	margin-top: 3px;
+	padding: 3px;
+        font: message-box;
+        font-weight: 700;
+}
+.VbmenuOptionH a:link {
+	color: #fff;
+}
+.VbmenuOptionH a:visited {
+	color: #fff;
+}
+.VbmenuOptionH a:hover {
+	color: #6888af !important;
+	transition: 0.3s;
+}
+.VbmenuOption2 {
+	background: none repeat scroll 0 0 #0080AE;
+	font-size: 0.8em;
+	font-weight: lighter;
+	padding: 5px;
+	min-height: 10px;
+	overflow: hidden;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	color: #fff;
+	font-family: "Droid Arabic Kufi","Open Sans",sans-serif;
+}
+h4 {
+	font-size: 10pt;
+	position: relative;
+	line-height: 12px;
+}
+
+
+.menu-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    top: -8px;
+    left: 50%;
+    margin-left: -8px;
+    border: 8px solid transparent;
+    border-top-width: 0;
+    border-bottom-color: #47a7eb;
+}  
+/*----- كود البيانات الشخصيه الطائر الحر -----*/
