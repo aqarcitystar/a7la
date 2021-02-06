@@ -1,4 +1,27 @@
 ﻿
+span.label.label--yelllow, span.label.label--yelllow strong {
+	font-size: 0px;
+}
+span.label.label--yelllow a {
+	font-size: 12px;
+	font-weight: 700;
+}
+span.label.label--yelllow img {
+	display: none;
+}
+time.node-extra-date.u-dt a, time.node-extra-date.u-dt img, time.node-extra-date.u-dt br, time.node-extra-date.u-dt strong {
+	display: none;
+}
+li.node-extra-user, li.node-extra-user a {
+	font-size: 0px;
+}
+li.node-extra-user strong {
+	font-size: 14px;
+}
+li.node-extra-user br, li.node-extra-user img {
+	display: none;
+}
+
 
 /*----- كود الدخول الطائر الحر -----*/
 
